@@ -73,7 +73,7 @@ node(:,1) = Xnode(:);
 node(:,2) = Ynode(:);
 
 Nnode = size(node,1);
-Nel = (Nrows-1)*(Nrows-1);
+Nel = (Nrows-1)*(Ncols-1);
 
 Inode = reshape(1:Nnode,length(ynode),length(xnode));
 
